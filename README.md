@@ -1,25 +1,22 @@
 # Ex:05 Feature Generation
-
-# AIM
+## AIM
 To read the given data and perform Feature Generation process and save the data to a file.
-
-# Explanation
+## Explanation
 Feature Generation (also known as feature construction, feature extraction or feature engineering) is the process of transforming features into new features that better relate to the target.
-# ALGORITHM
+## ALGORITHM
 ### STEP 1
 Read the given Data
 ### STEP 2
 Clean the Data Set using Data Cleaning Process
 ### STEP 3
 Apply Feature Generation techniques to all the feature of the data set
-#### STEP 4
+### STEP 4
 Save the data to the file
-
-# PROGRAM
-
-#### Developed by:Jaswanth P
-#### Register number:212220040115
-
+## PROGRAM
+```
+Developed by: Jaswanth P
+Register Number: 212220040115
+```
 ### For Encoding.csv file
 ```
 import pandas as pd
@@ -87,49 +84,41 @@ df2
 df2 = pd.get_dummies(df2, prefix=['Index'] ,columns=['Index'])
 df2
 ```
-
-# OUTPUT
-
-### For encoding.csv file
-
-#### Initial data:
-
-#### Unique value:
-
-
-#### Ordinal Encoder:
-
-
-#### Label Encoder:
-
-
-#### Binary Encoder:
-
-### For Data.csv file
-
-#### Initial data:
-
-#### Unique value:
-
-
-#### Ordinal Encoder:
-
-
-#### Label Encoder:
-
-
-#### Binary Encoder:
-
-### For bmi.csv file
-
-#### Initial data:
-
-
-#### Binary Encoders:
-
-
-#### Dummies:
-
-
-# RESULT:
+## OUTPUT
+## For encoding.csv file
+### Initial data:
+![ds 1](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/6c34ae2c-4d52-456d-bb59-9b7f5cc8f3fe)
+### Unique Value:
+![ds 2](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/21345ca8-6a5e-4d97-8915-5768d2a2b1ff)
+### Ordinal Encoder:
+![ds 3](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/c0a9c907-2093-4843-9cf0-90733db72cdd)
+### Label Encoder:
+![ds 4](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/4256251a-0674-4582-a620-a496043a3901)
+### Binary Encoder:
+![ds new6 ](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/845df31e-9fcb-4875-a1e7-3ac70619dc37)
+![ds 6](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/d2e22be5-704d-49c7-bb93-68500443d07a)
+## For Data.csv file
+### Initial data:
+![ds 7](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/c0cf7a08-e44a-43f1-b950-535934cbe5d6)
+### Unique data:
+![ds 8](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/1e68c3e1-d24f-45c1-a2cd-064faf4bfb2d)
+### Ordinal Encoder:
+![ds 9](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/a299b218-7585-4b86-a770-a432c7d7e6f6)
+![ds 10](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/0bf8837c-21dd-4b8f-a46c-385e8bf736a7)
+### Label Encoder:
+![ds 11](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/84ada579-4192-4bac-9878-821db5289436)
+### Binary Encoder:
+![ds 12](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/d2897922-ec3d-4940-bf0a-0e8bc043d787)
+![ds 13](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/6f0d391e-3702-40b5-9a37-03eb5eae2565)
+## For bmi.csv file
+### Initial data:
+![ds 14](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/76f9810f-3172-4b60-bdc1-50d44d22333b)
+### Binary Encoders:
+![ds 15](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/dd491703-47c8-45f0-86a3-c56c9bd8cc1a)
+### Dummies:
+![ds 16](https://github.com/deepikasrinivasans/ODD2023-Datascience-Ex-05/assets/119393935/2c20cca9-b38d-49cc-8e40-47a73e727506)
+## RESULT:
 The Feature Generation process was performed and saved the data to a file.
+
+
+
